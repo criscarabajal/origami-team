@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ==============================
+       SEO – TÍTULOS Y DESCRIPCIÓN
+       ============================== -->
+  <title>Origami Team · Uriel González – Entrenador & Coach Nutricional</title>
+  <meta name="description"
+    content="Origami Team – Método integral de entrenamiento personalizado, planificación nutricional y seguimiento diario con Uriel González, más de 10 años de experiencia." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://origamiteam.com/" />
+
+  <!-- ==============================
+       SEO – OPEN GRAPH (Facebook, WhatsApp, LinkedIn)
+       ============================== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Origami Team" />
+  <meta property="og:title" content="Origami Team · Uriel González – Entrenador & Coach Nutricional" />
+  <meta property="og:description"
+    content="Método integral de entrenamiento personalizado, planificación nutricional y seguimiento diario. +10 años de experiencia." />
+  <meta property="og:image" content="https://origamiteam.com/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://origamiteam.com/" />
+  <meta property="og:locale" content="es_AR" />
+
+  <!-- ==============================
+       SEO – TWITTER CARD
+       ============================== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Origami Team · Uriel González – Entrenador & Coach Nutricional" />
+  <meta name="twitter:description"
+    content="Entrenamiento personalizado + nutrición + seguimiento diario. +10 años de experiencia." />
+  <meta name="twitter:image" content="https://origamiteam.com/og-image.png" />
+
+  <!-- ==============================
+       TEMA Y FAVICON
+       ============================== -->
+  <meta name="theme-color" content="#080808" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- ==============================
+       FUENTES – sin duplicados, solo pesos usados
+       ============================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Preload asíncrono de fuentes (no bloquea el render) -->
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=M+PLUS+1+Code:wght@400;700;900&display=swap"
+    onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=M+PLUS+1+Code:wght@400;700;900&display=swap" />
+  </noscript>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Script con defer → no bloquea el renderizado -->
+  <script src="script.js" defer></script>
+
+  <!-- ==============================
+       SCHEMA.ORG – DATOS ESTRUCTURADOS
+       ============================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "name": "Origami Team",
+    "description": "Método integral de entrenamiento personalizado, planificación nutricional y seguimiento diario.",
+    "url": "https://origamiteam.com",
+    "telephone": "+5491100000000",
+    "priceRange": "$$",
+    "image": "https://origamiteam.com/trainer.webp",
+    "founder": {
+      "@type": "Person",
+      "name": "Uriel González"
+    },
+    "sameAs": ["https://wa.me/5491100000000"],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "ratingCount": "4"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Uriel González",
+    "jobTitle": "Entrenador Personal y Coach Nutricional",
+    "description": "Entrenador, preparador físico y coach nutricional con más de diez años de experiencia. Ex deportista profesional.",
+    "image": "https://origamiteam.com/trainer.webp",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Origami Team",
+      "url": "https://origamiteam.com"
+    },
+    "knowsAbout": ["Entrenamiento personalizado", "Nutrición deportiva", "Alto rendimiento", "Preparación física"]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <img src="logo.png" alt="Logo Origami Team – Entrenamiento y Nutrición" class="nav-logo-img" width="50"
+          height="50" decoding="async" />
+        <span class="nav-logo-text">ORIGAMI TEAM</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#metodo">Método</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#resultados">Resultados</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <a href="https://wa.me/5491100000000?text=Hola%20Uriel,%20quiero%20empezar!" target="_blank"
+        rel="noopener noreferrer" class="btn-primary nav-cta" id="nav-cta">
+        Empezá hoy <span class="btn-arrow">→</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menú" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Menú móvil">
+      <a href="#metodo">Método</a>
+      <a href="#sobre-mi">Sobre Mí</a>
+      <a href="#resultados">Resultados</a>
+      <a href="#contacto">Contacto</a>
+      <a href="https://wa.me/5491100000000?text=Hola%20Uriel,%20quiero%20empezar!" target="_blank"
+        rel="noopener noreferrer" class="btn-primary">Empezá hoy <span class="btn-arrow">→</span></a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <p class="section-label">ORIGAMI TEAM · TRANSFORMACIÓN INTEGRAL</p>
+      <h1 class="hero-title">TU MEJOR<br>VERSIÓN<br><span class="orange">PUEDE EMPEZAR HOY.</span></h1>
+      <p class="hero-sub">Método integral que combina entrenamiento personalizado, planificación nutricional y
+        seguimiento diario. Sin rutinas genéricas. Sin planes estándar.</p>
+      <div class="hero-ctas">
+        <a href="https://wa.me/5491100000000?text=Hola%20Uriel,%20quiero%20empezar!" target="_blank"
+          rel="noopener noreferrer" class="btn-primary large">
+          Escribime por WhatsApp <span class="btn-arrow">→</span>
+        </a>
+        <a href="#sobre-mi" class="btn-outline large">Conocé el método</a>
+      </div>
+      <ul class="hero-stats">
+        <li><span class="check-icon">✓</span> +10 años de experiencia</li>
+        <li><span class="check-icon">✓</span> Seguimiento diario real</li>
+        <li><span class="check-icon">✓</span> Proceso 100% personalizado</li>
+      </ul>
+    </div>
+    <div class="hero-image">
+      <div class="hero-img-wrap">
+        <!-- LCP image: fetchpriority="high", sin lazy -->
+        <img src="trainer.webp" alt="Uriel González, entrenador personal y coach nutricional de Origami Team"
+          width="800" height="1000" fetchpriority="high" decoding="async" />
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS RÁPIDOS -->
+  <section class="trust-bar" id="trust-bar">
+    <div class="trust-inner">
+      <div class="trust-item">
+        <div class="stars" aria-label="5 estrellas">★★★★★</div>
+        <p>"En 3 meses logré lo que no pude en años. El seguimiento de Uriel es otro nivel."</p>
+        <span class="trust-name">— Martina R.</span>
+      </div>
+      <div class="trust-divider" aria-hidden="true"></div>
+      <div class="trust-item">
+        <div class="stars" aria-label="5 estrellas">★★★★★</div>
+        <p>"Me cambió no solo el cuerpo, sino la mentalidad. El método funciona de verdad."</p>
+        <span class="trust-name">— Lucas F.</span>
+      </div>
+      <div class="trust-divider" aria-hidden="true"></div>
+      <div class="trust-item">
+        <div class="stars" aria-label="5 estrellas">★★★★★</div>
+        <p>"Nunca había tenido un plan tan personalizado y un acompañamiento tan real."</p>
+        <span class="trust-name">— Carolina M.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EL MÉTODO -->
+  <section class="section metodo" id="metodo">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">EL MÉTODO</p>
+        <h2 class="section-title">EL ENFOQUE <span class="orange">ORIGAMI TEAM</span></h2>
+        <p class="section-desc">No es un plan rápido. Es un cambio sostenible. Un proceso integral adaptado a tu
+          realidad y tu objetivo.</p>
+      </div>
+      <div class="cards-grid">
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">🥗</div>
+          <h3>Plan de Alimentación</h3>
+          <p>Planificación nutricional personalizada según tu metabolismo, objetivos y estilo de vida. Sin restricciones
+            absurdas.</p>
+          <ul class="card-list">
+            <li><span class="check-icon" aria-hidden="true">✓</span> Macros adaptados a vos</li>
+            <li><span class="check-icon" aria-hidden="true">✓</span> Ajustes semanales</li>
+            <li><span class="check-icon" aria-hidden="true">✓</span> Sin dietas genéricas</li>
+          </ul>
+        </article>
+        <article class="card card-featured">
+          <div class="card-icon" aria-hidden="true">💪</div>
+          <h3>Entrenamiento Personalizado</h3>
+          <p>Plan de entrenamiento adaptado a tu nivel, equipamiento disponible y objetivos específicos. Progresivo y
+            medible.</p>
+          <ul class="card-list">
+            <li><span class="check-icon" aria-hidden="true">✓</span> Rutinas adaptadas</li>
+            <li><span class="check-icon" aria-hidden="true">✓</span> Progresión controlada</li>
+            <li><span class="check-icon" aria-hidden="true">✓</span> Para todo nivel</li>
+          </ul>
+        </article>
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">📊</div>
+          <h3>Seguimiento Diario</h3>
+          <p>Acompañamiento y control constante de comidas, actividad física y evolución. No desaparecemos después de
+            mandarte el plan.</p>
+          <ul class="card-list">
+            <li><span class="check-icon" aria-hidden="true">✓</span> Check-ins diarios</li>
+            <li><span class="check-icon" aria-hidden="true">✓</span> Ajustes continuos</li>
+            <li><span class="check-icon" aria-hidden="true">✓</span> Soporte directo</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARA QUIÉN -->
+  <section class="section para-quien" id="para-quien">
+    <div class="container">
+      <div class="para-grid">
+        <div class="para-left">
+          <p class="section-label">¿PARA QUIÉN ES?</p>
+          <h2 class="section-title">NO IMPORTA<br>TU PUNTO<br><span class="orange">DE PARTIDA.</span></h2>
+          <p>Importa tu compromiso.</p>
+          <a href="#contacto" class="btn-primary large mt-32">
+            Quiero empezar <span class="btn-arrow">→</span>
+          </a>
+        </div>
+        <div class="para-right">
+          <div class="para-item">
+            <div class="para-num" aria-hidden="true">01</div>
+            <div>
+              <h4>Querés mejorar tu estilo de vida</h4>
+              <p>Y dejar de empezar y abandonar para siempre.</p>
+            </div>
+          </div>
+          <div class="para-item">
+            <div class="para-num" aria-hidden="true">02</div>
+            <div>
+              <h4>Buscás recuperar energía y confianza</h4>
+              <p>Sentirte bien en tu cuerpo y en tu día a día.</p>
+            </div>
+          </div>
+          <div class="para-item">
+            <div class="para-num" aria-hidden="true">03</div>
+            <div>
+              <h4>Querés resultados reales</h4>
+              <p>Bajar grasa, ganar músculo o verte y sentirte mejor.</p>
+            </div>
+          </div>
+          <div class="para-item">
+            <div class="para-num" aria-hidden="true">04</div>
+            <div>
+              <h4>Sos deportista</h4>
+              <p>Y querés mejorar tu rendimiento con planificación y seguimiento real.</p>
+            </div>
+          </div>
+          <div class="para-item">
+            <div class="para-num" aria-hidden="true">05</div>
+            <div>
+              <h4>Necesitás estructura</h4>
+              <p>Un método que se adapte a tu realidad, horarios y posibilidades.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section class="quote-section" id="quote">
+    <div class="quote-inner">
+      <span class="quote-deco" aria-hidden="true">&ldquo;</span>
+      <blockquote class="quote-text" cite="https://es.wikipedia.org/wiki/Jim_Rohn">
+        No somos lo que logramos, somos lo que superamos.
+      </blockquote>
+      <a href="#contacto" class="btn-primary large quote-cta">
+        Empezá tu proceso <span class="btn-arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section class="section sobre-mi" id="sobre-mi">
+    <div class="container">
+      <div class="sobre-grid">
+        <div class="sobre-img-wrap">
+          <img src="trainer.webp" alt="Uriel González, preparador físico con más de 10 años de experiencia"
+            class="sobre-img" width="600" height="600" loading="lazy" decoding="async" />
+          <div class="sobre-badge">
+            <span class="badge-num">+10</span>
+            <span class="badge-txt">años<br>formando<br>personas</span>
+          </div>
+        </div>
+        <div class="sobre-content">
+          <p class="section-label">SOBRE MÍ</p>
+          <h2 class="section-title">SOY<br><span class="orange">URIEL<br>GONZÁLEZ.</span></h2>
+          <p class="sobre-text">Entrenador, preparador físico y coach nutricional con más de diez años de experiencia
+            ayudando a personas a alcanzar su mejor estado físico, anímico y mental.</p>
+          <p class="sobre-text">Mi formación y mi experiencia como <strong>ex deportista profesional</strong> me
+            permitieron entender el alto rendimiento, la disciplina y la constancia. Pero también comprendí algo clave:
+            <strong>cada proceso es único</strong>.
+          </p>
+          <p class="sobre-text">Por eso trabajo de forma personalizada y con acompañamiento real. En Origami Team no
+            solo entrenás. Construís hábitos. Desarrollás disciplina. Mejorás tu energía y tu calidad de vida.</p>
+          <div class="sobre-tags">
+            <span class="tag">Preparador Físico</span>
+            <span class="tag">Coach Nutricional</span>
+            <span class="tag">Ex Deportista</span>
+            <span class="tag">+10 años experiencia</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAL -->
+  <section class="section diferencial" id="diferencial">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">EL DIFERENCIAL</p>
+        <h2 class="section-title">¿POR QUÉ <span class="orange">ORIGAMI TEAM</span><br>NO ES UN PLAN MÁS?</h2>
+      </div>
+      <div class="dif-grid">
+        <div class="dif-item">
+          <div class="dif-icon" aria-hidden="true">📅</div>
+          <h4>Seguimiento diario y real</h4>
+          <p>No recibís un plan y desaparecemos. Hay ajustes, control y acompañamiento constante en cada etapa del
+            proceso.</p>
+        </div>
+        <div class="dif-item">
+          <div class="dif-icon" aria-hidden="true">🎯</div>
+          <h4>Personalización total</h4>
+          <p>La personalización no es un detalle. Es la base del proceso. Cada plan se construye alrededor de tu
+            realidad.</p>
+        </div>
+        <div class="dif-item">
+          <div class="dif-icon" aria-hidden="true">🏆</div>
+          <h4>Experiencia de alto rendimiento</h4>
+          <p>Mi paso por el deporte profesional me permite entender tanto a quien recién empieza como a quien busca alto
+            rendimiento.</p>
+        </div>
+        <div class="dif-item">
+          <div class="dif-icon" aria-hidden="true">🔄</div>
+          <h4>Ajustes constantes</h4>
+          <p>El proceso evoluciona con vos. Lo que funciona hoy puede cambiar mañana y el plan se adapta en tiempo real.
+          </p>
+        </div>
+        <div class="dif-item">
+          <div class="dif-icon" aria-hidden="true">📋</div>
+          <h4>Planificación seria</h4>
+          <p>Acá no se improvisa. Se planifica y se trabaja. Cada semana tiene un objetivo claro y medible.</p>
+        </div>
+        <div class="dif-item">
+          <div class="dif-icon" aria-hidden="true">🤝</div>
+          <h4>Acompañamiento cercano</h4>
+          <p>Comunicación directa, sin intermediarios. Uriel acompaña personalmente cada proceso de principio a fin.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTADOS -->
+  <section class="section resultados" id="resultados">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">CASOS REALES</p>
+        <h2 class="section-title">RESULTADOS <span class="orange">QUE HABLAN</span><br>POR SÍ SOLOS</h2>
+        <p class="section-desc">Resultados físicos visibles. Pero más importante aún: cambios en mentalidad, disciplina
+          y energía.</p>
+      </div>
+
+      <!-- CAROUSEL -->
+      <div class="carousel-wrapper">
+        <div class="carousel-track" id="carouselTrack">
+
+          <article class="carousel-card">
+            <div class="carousel-img-wrap">
+              <img src="resultado_1.png" alt="Antes y después Martina R. – pérdida de 9kg en 3 meses con Origami Team"
+                width="600" height="700" loading="lazy" decoding="async" />
+              <div class="carousel-tag">📉 −9kg en 3 meses</div>
+            </div>
+            <div class="carousel-body">
+              <div class="stars" aria-label="5 estrellas">★★★★★</div>
+              <p class="carousel-quote">"En 3 meses bajé 9kg y gané una energía que no tenía hace años. El cambio en mi
+                relación con la comida y el ejercicio fue total. Uriel estuvo presente todos los días."</p>
+              <div class="carousel-author">
+                <div class="avatar-sm" aria-hidden="true">MR</div>
+                <div>
+                  <strong>Martina R.</strong>
+                  <span>Pérdida de grasa · 3 meses</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="carousel-card">
+            <div class="carousel-img-wrap">
+              <img src="resultado_2.png"
+                alt="Antes y después Lucas F. – mejora de rendimiento deportivo del 40% con Origami Team" width="600"
+                height="700" loading="lazy" decoding="async" />
+              <div class="carousel-tag">⚡ Rendimiento +40%</div>
+            </div>
+            <div class="carousel-body">
+              <div class="stars" aria-label="5 estrellas">★★★★★</div>
+              <p class="carousel-quote">"Nunca había tenido una planificación tan profesional. Mi rendimiento mejoró
+                notablemente y mi plan nutricional funciona de verdad para los entrenamientos."</p>
+              <div class="carousel-author">
+                <div class="avatar-sm" aria-hidden="true">LF</div>
+                <div>
+                  <strong>Lucas F.</strong>
+                  <span>Rendimiento deportivo · 4 meses</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="carousel-card">
+            <div class="carousel-img-wrap">
+              <img src="resultado_3.png"
+                alt="Antes y después Carolina M. – ganancia de 6kg de masa muscular con Origami Team" width="600"
+                height="700" loading="lazy" decoding="async" />
+              <div class="carousel-tag">💪 +6kg masa muscular</div>
+            </div>
+            <div class="carousel-body">
+              <div class="stars" aria-label="5 estrellas">★★★★★</div>
+              <p class="carousel-quote">"Empecé sin saber qué quería exactamente. Uriel me ayudó a definir mis
+                objetivos. 4 meses después, cambié mi cuerpo, mi energía y mi manera de verme."</p>
+              <div class="carousel-author">
+                <div class="avatar-sm" aria-hidden="true">CM</div>
+                <div>
+                  <strong>Carolina M.</strong>
+                  <span>Ganancia muscular · 4 meses</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="carousel-card">
+            <div class="carousel-img-wrap">
+              <img src="resultado_4.png"
+                alt="Diego S. cumpliendo su primera carrera de trail run con entrenamiento Origami Team" width="600"
+                height="700" loading="lazy" decoding="async" />
+              <div class="carousel-tag">🏅 Meta deportiva cumplida</div>
+            </div>
+            <div class="carousel-body">
+              <div class="stars" aria-label="5 estrellas">★★★★★</div>
+              <p class="carousel-quote">"Preparé mi primera carrera de trail con Uriel. La combinación de entrenamiento
+                y nutrición fue clave. Terminé el objetivo que me parecía imposible."</p>
+              <div class="carousel-author">
+                <div class="avatar-sm" aria-hidden="true">DS</div>
+                <div>
+                  <strong>Diego S.</strong>
+                  <span>Rendimiento trail · 5 meses</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /track -->
+
+        <!-- Controls -->
+        <div class="carousel-controls">
+          <button class="carousel-btn" id="carouselPrev" aria-label="Testimonio anterior">
+            ←
+          </button>
+          <div class="carousel-dots" id="carouselDots" role="tablist" aria-label="Testimonios">
+            <button class="dot active" data-index="0" role="tab" aria-label="Testimonio 1"
+              aria-selected="true"></button>
+            <button class="dot" data-index="1" role="tab" aria-label="Testimonio 2" aria-selected="false"></button>
+            <button class="dot" data-index="2" role="tab" aria-label="Testimonio 3" aria-selected="false"></button>
+            <button class="dot" data-index="3" role="tab" aria-label="Testimonio 4" aria-selected="false"></button>
+          </div>
+          <button class="carousel-btn" id="carouselNext" aria-label="Testimonio siguiente">
+            →
+          </button>
+        </div>
+      </div><!-- /carousel-wrapper -->
+
+      <div class="resultados-bottom">
+        <p class="orange">Tu historia puede ser la próxima.</p>
+        <a href="#contacto" class="btn-primary large">Quiero empezar <span class="btn-arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section contacto" id="contacto">
+    <div class="container">
+      <div class="contacto-grid">
+        <div class="contacto-left">
+          <p class="section-label">CONTACTO</p>
+          <h2 class="section-title">EL MOMENTO<br>PERFECTO<br><span class="orange">NO EXISTE.</span></h2>
+          <p class="contacto-desc">Si estás leyendo esto, es porque querés un cambio. Hacé que esta vez sea diferente.
+          </p>
+          <p class="contacto-steps"><strong>Primer paso:</strong> decisión.<br><strong>Segundo paso:</strong> acción.
+          </p>
+        </div>
+        <div class="contacto-right">
+          <div class="contacto-card">
+            <h3>Escribime ahora</h3>
+            <p>Contame tu objetivo y empecemos a diseñar tu proceso.</p>
+            <a href="https://wa.me/5491100000000?text=Hola%20Uriel,%20quiero%20empezar%20con%20Origami%20Team!"
+              target="_blank" rel="noopener noreferrer" class="btn-primary large full-width" id="cta-whatsapp">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" class="wa-icon" aria-hidden="true">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>
+              Escribime por WhatsApp
+            </a>
+            <div class="contacto-divider">o</div>
+            <a href="mailto:uriel@origamiteam.com" class="btn-outline large full-width" id="cta-email">
+              ✉ Agendá tu llamada inicial
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="logo.png" alt="Logo Origami Team" class="footer-logo-img" width="40" height="40" loading="lazy"
+          decoding="async" />
+        <span class="footer-logo-text">ORIGAMI TEAM</span>
+      </div>
+      <p class="footer-tagline">Entrenamiento · Nutrición · Transformación</p>
+      <div class="footer-links">
+        <a href="#metodo">Método</a>
+        <a href="#sobre-mi">Sobre Mí</a>
+        <a href="#resultados">Resultados</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <p class="footer-copy">© 2026 Origami Team · Uriel González · Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
