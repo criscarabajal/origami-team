@@ -1523,6 +1523,10 @@ ul {
   .footer-links {
     gap: 16px;
   }
+
+  .quote-section {
+    background-image: url('torii-mobile.webp');
+  }
 }
 
 @media (max-width: 480px) {
